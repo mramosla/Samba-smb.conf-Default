@@ -11,7 +11,7 @@ sudo vi /etc/samba/smb.conf
 
 netbios name = <servername>
 
-# Bind interface if needed
+# Edit bind interface if needed
 interfaces = 127.0.0.0/8 eth0 
 
 ## Convert unix user
